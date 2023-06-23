@@ -12,18 +12,13 @@ function Popular() {
   }, []);
 
   const getPopular = async () => {
-    const check = localStorage.getItem("popular");
-    if (check) {
-      setPopular(JSON.parse(check));
-    } else {
-      const api = await fetch(
-        `https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_DELICIOUS_KEY}&number=9`
-      );
+    const api = await fetch(
+      `https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_DELICIOUS_KEY}&number=9`
+    );
 
-      const data = await api.json();
-      localStorage.setItem("popular", JSON.stringify(data.recipes));
-      setPopular(data.recipes);
-    }
+    const data = await api.json();
+    localStorage.setItem("popular", JSON.stringify(data.recipes));
+    setPopular(data.recipes);
   };
 
   return (
@@ -32,6 +27,15 @@ function Popular() {
         <h3> Popular picks</h3>
         <Splide
           options={{
+            breakpoints: {
+              700: {
+                perPage: 1,
+              },
+              1200: {
+                perPage: 2,
+              },
+            },
+
             perPage: 3,
             arrows: false,
             pagination: false,

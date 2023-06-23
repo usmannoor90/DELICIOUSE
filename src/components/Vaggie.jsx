@@ -37,7 +37,15 @@ function Vaggie() {
         <h3>Our Vagitarian Picks</h3>
         <Splide
           options={{
-            perPage: 2,
+            breakpoints: {
+              700: {
+                perPage: 1,
+              },
+              1200: {
+                perPage: 2,
+              },
+            },
+            perPage: 3,
             arrows: false,
             pagination: false,
             drag: "free",

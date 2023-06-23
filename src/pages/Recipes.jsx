@@ -25,13 +25,25 @@ function Recipes() {
 
   return (
     <div>
-      <DetailWrapper>
+      <DetailWrapper
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          flexWrap: "wrap",
+        }}
+      >
         <div>
           <h3>{recipeDetails.title}</h3>
           <img src={recipeDetails.image} alt={recipeDetails.title} />
         </div>
         <Info>
-          <div style={{ marginBottom: "2rem" }}>
+          <div
+            style={{
+              marginBottom: "2rem",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
             <Button
               className={activeTab === "instructions" ? "active" : ""}
               onClick={() => setActiveTab("instructions")}
@@ -76,9 +88,9 @@ function Recipes() {
 const DetailWrapper = styled(motion.div)`
   margin-top: 10rem;
   margin-bottom: 5rem;
-  display: flex;
   img {
     border-radius: 2rem;
+    max-width: 100%;
   }
   .active {
     color: white;
@@ -112,7 +124,8 @@ const Button = styled.button`
 `;
 const Info = styled.div`
    {
-    margin-left: 6rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
   }
 `;
 
