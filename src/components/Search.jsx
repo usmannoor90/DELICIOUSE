@@ -8,7 +8,7 @@ function Search() {
   const navigate = useNavigate();
   const sumbitHandler = (e) => {
     e.preventDefault();
-    navigate(`DELICIOUSE/searched/` + input);
+    navigate(`/DELICIOUSE/searched/` + input);
   };
   return (
     <FormStyle onSubmit={sumbitHandler}>
