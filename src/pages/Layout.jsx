@@ -13,7 +13,7 @@ function Layout() {
     <>
       <Nav>
         <GiKnifeFork />
-        <Logo to={"/"}>Delicious</Logo>
+        <Logo to={"DELICIOUSE/"}>Delicious</Logo>
       </Nav>
       <Search />
       <Category />

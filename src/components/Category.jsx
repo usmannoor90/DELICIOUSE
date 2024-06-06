@@ -7,19 +7,19 @@ import { NavLink } from "react-router-dom";
 function Category() {
   return (
     <List>
-      <SLink to="/cuisine/italian">
+      <SLink to="/DELICIOUSE/cuisine/italian">
         <FaPizzaSlice />
         <h3>Italian</h3>
       </SLink>
-      <SLink to="/cuisine/american">
+      <SLink to="/DELICIOUSE/cuisine/american">
         <FaHamburger />
         <h3>American</h3>
       </SLink>
-      <SLink to="/cuisine/thai">
+      <SLink to="/DELICIOUSE/cuisine/thai">
         <GiNoodles />
         <h3>Thai</h3>
       </SLink>
-      <SLink to="/cuisine/japanese">
+      <SLink to="/DELICIOUSE/cuisine/japanese">
         <GiChopsticks />
         <h3>Japanese</h3>
       </SLink>

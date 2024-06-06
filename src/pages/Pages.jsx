@@ -14,10 +14,13 @@ function Pages() {
         <Suspense>
           <Routes>
             <Route element={<Layout />}>
-              <Route path="/" element={<Home />} />
-              <Route path="/cuisine/:type" element={<Cuisine />} />
-              <Route path="/searched/:search" element={<Searched />} />
-              <Route path="/recipes/:name" element={<Recipes />} />
+              <Route path="DELICIOUSE/" element={<Home />} />
+              <Route path="DELICIOUSE/cuisine/:type" element={<Cuisine />} />
+              <Route
+                path="DELICIOUSE/searched/:search"
+                element={<Searched />}
+              />
+              <Route path="DELICIOUSE/recipes/:name" element={<Recipes />} />
             </Route>
           </Routes>
         </Suspense>
