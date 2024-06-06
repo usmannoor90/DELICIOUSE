@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/DELICIOUSE/static/css/main.e559f565.css",
-    "main.js": "/DELICIOUSE/static/js/main.28cfae4f.js",
+    "main.js": "/DELICIOUSE/static/js/main.243d9bdc.js",
     "static/css/476.0da7f222.chunk.css": "/DELICIOUSE/static/css/476.0da7f222.chunk.css",
-    "static/js/476.086524b0.chunk.js": "/DELICIOUSE/static/js/476.086524b0.chunk.js",
-    "static/js/939.4fff66ca.chunk.js": "/DELICIOUSE/static/js/939.4fff66ca.chunk.js",
-    "static/js/772.40cee478.chunk.js": "/DELICIOUSE/static/js/772.40cee478.chunk.js",
+    "static/js/476.14320a84.chunk.js": "/DELICIOUSE/static/js/476.14320a84.chunk.js",
+    "static/js/939.8fdaf8b1.chunk.js": "/DELICIOUSE/static/js/939.8fdaf8b1.chunk.js",
+    "static/js/772.ef520d17.chunk.js": "/DELICIOUSE/static/js/772.ef520d17.chunk.js",
     "static/js/851.e05edc83.chunk.js": "/DELICIOUSE/static/js/851.e05edc83.chunk.js",
-    "static/js/506.7e5d38f6.chunk.js": "/DELICIOUSE/static/js/506.7e5d38f6.chunk.js",
+    "static/js/506.cb75d222.chunk.js": "/DELICIOUSE/static/js/506.cb75d222.chunk.js",
     "static/js/684.3efce2bb.chunk.js": "/DELICIOUSE/static/js/684.3efce2bb.chunk.js",
     "static/js/984.033b8b5f.chunk.js": "/DELICIOUSE/static/js/984.033b8b5f.chunk.js",
     "static/js/450.40f79314.chunk.js": "/DELICIOUSE/static/js/450.40f79314.chunk.js",
     "static/js/752.a2250d08.chunk.js": "/DELICIOUSE/static/js/752.a2250d08.chunk.js",
     "index.html": "/DELICIOUSE/index.html",
     "main.e559f565.css.map": "/DELICIOUSE/static/css/main.e559f565.css.map",
-    "main.28cfae4f.js.map": "/DELICIOUSE/static/js/main.28cfae4f.js.map",
+    "main.243d9bdc.js.map": "/DELICIOUSE/static/js/main.243d9bdc.js.map",
     "476.0da7f222.chunk.css.map": "/DELICIOUSE/static/css/476.0da7f222.chunk.css.map",
-    "476.086524b0.chunk.js.map": "/DELICIOUSE/static/js/476.086524b0.chunk.js.map",
-    "939.4fff66ca.chunk.js.map": "/DELICIOUSE/static/js/939.4fff66ca.chunk.js.map",
-    "772.40cee478.chunk.js.map": "/DELICIOUSE/static/js/772.40cee478.chunk.js.map",
+    "476.14320a84.chunk.js.map": "/DELICIOUSE/static/js/476.14320a84.chunk.js.map",
+    "939.8fdaf8b1.chunk.js.map": "/DELICIOUSE/static/js/939.8fdaf8b1.chunk.js.map",
+    "772.ef520d17.chunk.js.map": "/DELICIOUSE/static/js/772.ef520d17.chunk.js.map",
     "851.e05edc83.chunk.js.map": "/DELICIOUSE/static/js/851.e05edc83.chunk.js.map",
-    "506.7e5d38f6.chunk.js.map": "/DELICIOUSE/static/js/506.7e5d38f6.chunk.js.map",
+    "506.cb75d222.chunk.js.map": "/DELICIOUSE/static/js/506.cb75d222.chunk.js.map",
     "684.3efce2bb.chunk.js.map": "/DELICIOUSE/static/js/684.3efce2bb.chunk.js.map",
     "984.033b8b5f.chunk.js.map": "/DELICIOUSE/static/js/984.033b8b5f.chunk.js.map",
     "450.40f79314.chunk.js.map": "/DELICIOUSE/static/js/450.40f79314.chunk.js.map",
@@ -28,6 +28,6 @@
   },
   "entrypoints": [
     "static/css/main.e559f565.css",
-    "static/js/main.28cfae4f.js"
+    "static/js/main.243d9bdc.js"
   ]
 }
