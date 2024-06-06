@@ -23,7 +23,7 @@ function Cuisine() {
         return (
           <Card key={item.id}>
             <Link to={"/recipes/" + item.id}>
-              <img src={item.image} />
+              <img src={item.image} alt="" />
               <h4>{item.title}</h4>
             </Link>
           </Card>
