@@ -1,4 +1,4 @@
-import React, { lazy } from "react";
+import React, { Suspense, lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const Home = lazy(() => import("./Home"));
@@ -11,14 +11,16 @@ function Pages() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
-          <Route element={<Layout />}>
-            <Route path="/" element={<Home />} />
-            <Route path="/cuisine/:type" element={<Cuisine />} />
-            <Route path="/searched/:search" element={<Searched />} />
-            <Route path="/recipes/:name" element={<Recipes />} />
-          </Route>
-        </Routes>
+        <Suspense>
+          <Routes>
+            <Route element={<Layout />}>
+              <Route path="/" element={<Home />} />
+              <Route path="/cuisine/:type" element={<Cuisine />} />
+              <Route path="/searched/:search" element={<Searched />} />
+              <Route path="/recipes/:name" element={<Recipes />} />
+            </Route>
+          </Routes>
+        </Suspense>
       </BrowserRouter>
     </>
   );
